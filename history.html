@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aibolit</title>
+    <link href="https://allfont.ru/allfont.css?fonts=schoolbook" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide
+    ">
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide"> -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="index.html" class="logo__link">
+                        <img src="img/logo.svg" alt="" class="logo__img">
+                    </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="profile.html" class="menu__link">Личный кабинет</a>
+                        </li>
+                        <li class="menu__item">
+                            <div class="dropdown">
+                                <a href="#" class="menu__link active"> о нас</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Услуги и цены</a>
+                                    <a href="team.html">Коллектив</a>
+                                    <a href="history.html">История компании</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="news.html" class="menu__link">Новости и акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contacts.html" data-scroll="#contacts" class="menu__link">контакты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="blog.html" class="menu__link">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__state">
+                    <a href="#" class="header__state__link">
+                        <img src="img/location.svg" alt="" class="state__img">
+                    </a>
+                    <a href="#" class="state__link">
+                        <p class="state">Волгоград</p>
+                    </a>
+                </div>
+                <div class="nav__togle " id="nav__togle">
+                    <span class="nav__togle__item">menu</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__back" id="back">
+            <div class="container">
+                <a href="index.html" class="main__link">Назад</a>
+            </div>
+        </div>
+        <div class="blog">
+            <div class="container">
+                <div class="main__blog">
+                    <div class="main__history" id="history">
+                        <h3 class="main__title">История
+                            компании</h3>
+                        <div class="main__nav">
+                            <ul class="main__list">
+                                <li class="main__item">
+                                    <a href="#tit1" class="list__link"> Title 1</a>
+                                </li>
+                                <li class="main__item">
+                                    <a href="#tit2" class="list__link">Title 2</a>
+                                </li>
+                                <li class="main__item">
+                                    <a href="#tit3" class="list__link">Title 3</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="main__content">
+                        <div class="content__item">
+                            <img src="img/cont-1.jpg" alt="" class="content__img">
+                            <h3 class="cont__title" id="tit1">Подзаголовок 1</h3>
+                            <p class="cont__text">Терапия - область гуманной и ветеринарной медицины, занимающаяся
+                                непосредственно лечением патологий, облегчением состояния больного и устранением
+                                симптомов заболеваний.</p><br>
+                            <p class="cont__text">Терапевтическое отделение клиники Айболит занимается диагностикой и
+                                лечением следующих болезней: <br> - органов пищеварения;<br> - органов
+                                сердечно-сосудистой системы;<br> - органов дыхательной системы;<br> - нервной
+                                системы;<br> - органов мочевыделительной системы;<br> - эндокринной системы;<br> -
+                                нарушения обмена веществ;<br> - кожи и ее производных;<br> - органов чувств;<br> -
+                                репродуктивной области;<br> - инфекционной и инвазионной природы;<br> -
+                                токсикологической природы.</p>
+
+                        </div>
+                        <div class="content__item">
+                            <h3 class="cont__title" id="tit2">Подзаголовок 2</h3>
+                            <p class="cont__text">В нашей клинике имеются как врачи-терапевты общей практики, так и
+                                узкие специалисты по ряду перечисленных областей, что дает возможность излечивать
+                                тяжелые и редкие случаи патологий.</p>
+                            <div class="cont__images">
+                                <img src="img/cont-2.jpg" alt="" class="cont__img">
+                                <img src="img/cont-3.jpg" alt="" class="cont__img">
+                            </div>
+
+                            <p class="cont__text">Врач-терапевт подходит к лечению животного комплексно, предварительно
+                                изучив его анамнез, учитывая возраст, пол, породу, наличие хронических болезней, условия
+                                содержания, типа кормления, оценив общее состояние питомца, полностью осмотрев его и
+                                назначив необходимую диагностику и соответствующее лечение.</p> <br>
+                            <p class="cont__text">Врачи клиники имеют широкий спектр диагностических возможностей, что
+                                является идеальным условием для постановки точного диагноза, а значит и назначения того
+                                лечения, которое наиболее эффективно справится с данным конкретным клиническим случаем.
+                            </p> <br>
+                            <p class="cont__text"> Некоторую диагностику можно провести тут же на месте в течение
+                                буквально нескольких минут, что немаловажно для экстренных случаев и значительно
+                                экономят время владельцам: <br> - гематологический и биохимический анализы крови; <br> -
+                                исследование Т4 и кортизол; <br> - анализ газов крови; <br> - рентген; <br> -
+                                ультразвуковое исследование брюшной полости и сердца; <br> - микроскопия мазков и
+                                соскобов; <br>- люминесцентный тест на лишай; <br> - экспресс-анализы на основные
+                                вирусные заболевания.</p>
+
+                        </div>
+                        <div class="content__item" id="tit3">
+                            <h3 class="cont__title">Подзаголовок 3</h3>
+                            <p class="cont__text">
+                                Большинство исследований, требующих седации (эндоскопия, МРТ, лапароскопия), так же
+                                доступны в течение суток. Более сложные анализы, такие как бактериологический посев,
+                                гормоны, гистологическое исследование мы направляем в дистанционную лабораторию.
+                            </p> <br>
+                            <p class="cont__text">
+                                Получив результаты исследований врач приступает к анализу причин и механизмов развития
+                                болезни и назначает лечение. Оно может быть медикаментозным (домашним или стационарным)
+                                или оперативным (экстренным или плановым).
+                            </p> <br>
+                            <p class="cont__text">
+                                Эффективность терапии в большой степени зависит и от владельца животного, ведь именно
+                                ему необходимо будет соблюдать предписания врача, вовремя давать препараты или ставить
+                                уколы, следить за развитием динамики и симптомов, чтобы вовремя оповестить врача о
+                                происходящих изменениях, для своевременной коррекции лечения.
+                            </p> <br>
+                            <p class="cont__text">
+                                Кроме лечения терапевты занимаются и профилактикой заболеваний. Доктора с удовольствием
+                                расскажут вам основы выращивания, содержания и кормления питомца, графики
+                                дегельминтизаций и прививок. Оформят ветеринарный паспорт и чипируют ваше животное.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <a href="#" class="footer__logo__link">
+                            <img src="img/logo.svg" alt="" class="footer__img">
+                            <div class="footer__cont">
+                                <h3 class="footer__title">Айболит</h3>
+                                <p class="footer__text">ветеринарная клиника</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer__lists">
+                        <ul class="footer__menu__list">
+
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Политика конфиденциальности в отношении обработки
+                                    персональных данных</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu__list">
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Главная</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Услуги и цены</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">История компании</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Наши специалисты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Вакансии</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Реквизиты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Онлайн-оплата</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu__list">
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Отзывы</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Контакты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Груминг-салон</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Косметика</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Новости и акции</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link"> Блог</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer__contacts">
+                    <div class="app_links">
+                        <a href="#" class="app__link">
+                            <img src="img/apple.svg" alt="" class="app__link__img">
+                            <h6 class="app__link__title">Загрузите в <br><b>App Store</b></h6>
+                        </a>
+                        <a href="#" class="app__link">
+                            <img src="img/google.svg" alt="" class="app__link__img">
+                            <h6 class="app__link__title">Доступно в <br><b>Google Play</b></h6>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__link">
+                            <img src="img/inst-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/fb-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/vk-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/youtube-2.svg" alt="" class="footer__social__img">
+                        </a>
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:aibolit34.ru">aibolit34.ru</a>
+                        <a href="mailto:aibolit34@gmail.com">aibolit34@gmail.com</a>
+                    </div>
+                    <div class="caption">
+                        <p class="caption__text">Made with<img src="img/heart.png" alt="" class="caption__img">from
+                            UnitBean</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.nav__togle').click(function (event) {
+                $('.nav__togle, .nav, .header').toggleClass('active');
+
+            });
+        });
+    </script>
+</body>
+
+</html>

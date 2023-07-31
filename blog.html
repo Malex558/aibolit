@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aibolit</title>
+    <link href="https://allfont.ru/allfont.css?fonts=schoolbook" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide
+    ">
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide"> -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header  " id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="index.html" class="logo__link">
+                        <img src="img/logo.svg" alt="" class="logo__img">
+                    </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="profile.html" class="menu__link">Личный кабинет</a>
+                        </li>
+                        <li class="menu__item">
+                            <div class="dropdown">
+                                <a href="#" class="menu__link"> о нас</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Услуги и цены</a>
+                                    <a href="team.html">Коллектив</a>
+                                    <a href="history.html">История компании</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="news.html" class="menu__link ">Новости и акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contacts.html" class="menu__link ">контакты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link active">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__state">
+                    <a href="#" class="header__state__link">
+                        <img src="img/location.svg" alt="" class="state__img">
+                    </a>
+                    <a href="#" class="state__link">
+                        <p class="state">Волгоград</p>
+                    </a>
+                </div>
+                <div class="nav__togle " id="nav__togle">
+                    <span class="nav__togle__item">menu</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="news">
+            <div class="container">
+                <div class="main__news">
+                    <div class="news__cont">
+                        <h3 class="main__title">Блог</h3>
+                            <div class="main__nav">
+                                <ul class="main__list">
+                                    <li class="main__item">
+                                        <a href="#private" class="list__link"> О НАС</a>
+                                    </li>
+                                    <li class="main__item">
+                                        <a href="#pet" class="list__link">СПЕЦИАЛИСТЫ</a>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="news__nav">
+                        <div class="pages">
+                            <a class="active" href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                        </div>
+                        <a href="#" class="news__link">
+                            <div class="news__info">
+                                <div class="news__info__item">
+                                    <img class="news__img" src="img/blog.png" alt="">
+                                    <div class="news__info__content">
+                                        <h4>Наружный отит и грибы Malassezia</h4>
+                                        <h6>29 мая 2018</h6>
+                                        <p>Данные клинического осмотра, указывающие на наличие наружного отита, включают
+                                            такие признаки, как отек и эритема ушной раковины, выделения из ушей,
+                                            болезненная реакция и/или беспокойство при пальпации наружного слухового
+                                            хода и потряхивание головой после т ...</p>
+                                    </div>
+                                </div>
+                        </a>
+                        <a href="#" class="news__link">
+                            <div class="news__info__item">
+                                <img class="news__img" src="img/blog.png" alt="">
+                                <div class="news__info__content">
+                                    <h4>Наружный отит и грибы Malassezia</h4>
+                                    <h6>29 мая 2018</h6>
+                                    <p>Данные клинического осмотра, указывающие на наличие наружного отита, включают
+                                        такие признаки, как отек и эритема ушной раковины, выделения из ушей,
+                                        болезненная реакция и/или беспокойство при пальпации наружного слухового хода и
+                                        потряхивание головой после т ...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="news__link">
+                            <div class="news__info__item ">
+                                <img class="news__img" src="img/blog.png" alt="">
+                                <div class="news__info__content">
+                                    <h4>Наружный отит и грибы Malassezia</h4>
+                                    <h6>29 мая 2018</h6>
+                                    <p>Данные клинического осмотра, указывающие на наличие наружного отита, включают
+                                        такие
+                                        признаки, как отек и эритема ушной раковины, выделения из ушей, болезненная
+                                        реакция
+                                        и/или беспокойство при пальпации наружного слухового хода и потряхивание головой
+                                        после т ...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="news__link">
+                            <div class="news__info__item ">
+                                <img class="news__img" src="img/blog.png" alt="">
+                                <div class="news__info__content">
+                                    <h4>Наружный отит и грибы Malassezia</h4>
+                                    <h6>29 мая 2018</h6>
+                                    <p>Данные клинического осмотра, указывающие на наличие наружного отита, включают
+                                        такие
+                                        признаки, как отек и эритема ушной раковины, выделения из ушей, болезненная
+                                        реакция
+                                        и/или беспокойство при пальпации наружного слухового хода и потряхивание
+                                        головой
+                                        после т ...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="news__link">
+                            <div class="news__info__item ">
+                                <img class="news__img" src="img/blog.png" alt="">
+                                <div class="news__info__content">
+                                    <h4>Наружный отит и грибы Malassezia</h4>
+                                    <h6>29 мая 2018</h6>
+                                    <p>Данные клинического осмотра, указывающие на наличие наружного отита,
+                                        включают такие
+                                        признаки, как отек и эритема ушной раковины, выделения из ушей,
+                                        болезненная реакция
+                                        и/или беспокойство при пальпации наружного слухового хода и потряхивание
+                                        головой
+                                        после т ...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <a href="#" class="footer__logo__link">
+                            <img src="img/logo.svg" alt="" class="footer__img">
+                            <div class="footer__cont">
+                                <h3 class="footer__title">Айболит</h3>
+                                <p class="footer__text">ветеринарная клиника</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer__lists">
+                        <ul class="footer__menu__list">
+
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Политика конфиденциальности в отношении обработки
+                                    персональных данных</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu__list">
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Главная</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Услуги и цены</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">История компании</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Наши специалисты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Вакансии</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Реквизиты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Онлайн-оплата</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu__list">
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Отзывы</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Контакты</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Груминг-салон</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Косметика</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link">Новости и акции</a>
+                            </li>
+                            <li class="footer__menu__item">
+                                <a href="#" class="footer__menu__link"> Блог</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer__contacts">
+                    <div class="app_links">
+                        <a href="#" class="app__link">
+                            <img src="img/apple.svg" alt="" class="app__link__img">
+                            <h6 class="app__link__title">Загрузите в <br><b>App Store</b></h6>
+                        </a>
+                        <a href="#" class="app__link">
+                            <img src="img/google.svg" alt="" class="app__link__img">
+                            <h6 class="app__link__title">Доступно в <br><b>Google Play</b></h6>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__link">
+                            <img src="img/inst-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/fb-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/vk-2.svg" alt="" class="footer__social__img">
+                        </a>
+                        <a href="#" class="footer__link">
+                            <img src="img/youtube-2.svg" alt="" class="footer__social__img">
+                        </a>
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:aibolit34.ru">aibolit34.ru</a>
+                        <a href="mailto:aibolit34@gmail.com">aibolit34@gmail.com</a>
+                    </div>
+                    <div class="caption">
+                        <p class="caption__text">Made with<img src="img/heart.png" alt="" class="caption__img">from
+                            UnitBean</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script >
+        $(document).ready(function () {
+            $('.nav__togle').click(function (event) {
+                $('.nav__togle, .nav, .header').toggleClass('active');
+
+            });
+        });
+    </script>
+</body>
+
+</html>
